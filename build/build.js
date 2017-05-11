@@ -8,7 +8,7 @@ var path = require('path')
 var chalk = require('chalk')
 var webpack = require('webpack')
 var config = require('../config')
-var i18n = require('i18n-static')
+var i18n = require('../module/i18n-static')
 var i18nConf = require('../i18n-conf')
 var webpackConfig = require('./webpack.prod.conf')
 
@@ -31,9 +31,9 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
       chunkModules: false
     }) + '\n\n')
 
-    console.log("生成国际化");
+    //国际语言版本生成配置
     i18n(i18nConf);
-    
+
     console.log(chalk.cyan('  Build complete.\n'))
     console.log(chalk.yellow(
       '  Tip: built files are meant to be served over an HTTP server.\n' +

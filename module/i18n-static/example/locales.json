@@ -1,0 +1,34 @@
+{
+  "en": {
+    "欢迎": "Welcom",
+    "语言 - 中文": "Language - English",
+    "你好": "Hello",
+    "热爱": "Love",
+    "国际": "International",
+    "中国": "China,",
+    "苹果": "Apple",
+    "好的": "Well",
+    "时间": "Time"
+  },
+  "jp": {
+    "欢迎": "歓迎",
+    "语言 - 中文": "言語 - 日本語",
+    "你好": "こんにちは",
+    "热爱": "熱愛",
+    "国际": "国際",
+    "中国": "中国,",
+    "苹果": "リンゴ",
+    "时间": "時間"
+  },
+  "fr": {
+    "欢迎": "Bienvenue",
+    "语言 - 中文": "Langue - Français",
+    "你好": "Bonjour",
+    "热爱": "Aimer",
+    "国际": "International",
+    "中国": "Chine",
+    "苹果": "Pommes",
+    "时间": "Le temps"
+  },
+  "zh-cn": {}
+}

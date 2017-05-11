@@ -14,10 +14,10 @@
       fr: 'Chine',
       en: 'China',
     },
-    苹果: { 
+    苹果: {
       en: 'Apple',
-      jp: 'リンゴ', 
-      fr: 'Pommes' 
+      jp: 'リンゴ',
+      fr: 'Pommes'
     }
   }
 </i18n>
@@ -35,7 +35,6 @@ export default {
     }
   },
   created(){
-    console.log('_#中国#_');
   }
 }
 </script>
